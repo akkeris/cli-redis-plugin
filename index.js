@@ -110,7 +110,7 @@ module.exports = {
     appkit.args.command('redis:backups:restore BACKUP_ID [ADDON]','retore a specified backup', apps_and_confirm_options, restore_backups.bind(null, appkit));
 	},
 	update:function(){},
-	group:'memcached',
-	help:'flush cache and get stats from memcached.',
+	group:'redis',
+	help:'flush cache and get stats from redis.',
 	primary:true
 };
